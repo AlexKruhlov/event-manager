@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "reports")
-public class Report extends AbstractAction {
+public class Report extends Action {
 	
 	@OneToOne
 	@JoinColumn(name = "speaker_id")
